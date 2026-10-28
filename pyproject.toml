@@ -1,0 +1,19 @@
+[project]
+name = "speckit-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "juancaros", email = "50739079+juancaros@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "specify-cli>=1.0.1",
+]
+
+[project.scripts]
+speckit-template = "speckit_template:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
